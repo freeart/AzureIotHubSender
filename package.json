@@ -1,0 +1,34 @@
+{
+  "name": "azure-iothub-sender",
+  "version": "1.0.0",
+  "description": "Send message device-to-cloud via HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeart/azure-iothub-sender.git"
+  },
+  "keywords": [
+    "azure",
+    "device-to-cloud",
+    "http",
+    "iot",
+    "iothub"
+  ],
+  "author": "Landgraf Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeart/azure-iothub-sender/issues"
+  },
+  "homepage": "https://github.com/freeart/azure-iothub-sender#readme",
+  "dependencies": {
+    "azure": "^0.10.6",
+    "azure-iot-device": "^1.0.6",
+    "azure-iot-device-amqp": "^1.0.6",
+    "azure-iot-device-http": "^1.0.7",
+    "azure-iot-device-mqtt": "^1.0.6",
+    "azure-iothub": "^1.0.8"
+  }
+}
